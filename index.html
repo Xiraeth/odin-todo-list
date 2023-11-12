@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <script src="scripts/dateTime.js" defer></script>
+    <script src="scripts/navbar.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/00de2a7224.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Todo List</title>
+    <link rel="shortcut icon" href="images/checklist.png" />
+  </head>
+  <body>
+    <nav id="myProjects">
+      <div class="header">
+        <h1>Categories</h1>
+        <i class="fa-solid fa-plus"></i>
+      </div>
+      <!-- <div class="noProject">
+        You have no projects. Click on the plus icon to add a new one.
+      </div> -->
+      <div class="categories">
+        <div class="category activeCategory">Home</div>
+        <div class="category">Work</div>
+        <div class="category">Personal</div>
+        <!-- <div class="newCatInputs">
+          <input type="text" class="catInput" />
+          <input type="submit" value="Add" />
+          <button id="cancelInput">Cancel</button>
+        </div> -->
+      </div>
+    </nav>
+
+    <section class="content">
+      <nav id="topHeader">
+        <div class="date-time-info">
+          <p class="date"></p>
+          <p class="time"></p>
+        </div>
+        <div class="number-of-tasks">You have 0 tasks to do.</div>
+      </nav>
+
+      <div class="tasks">Youu have no active tasks.</div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+@import url(document.css);
+
+.content {
+  width: calc(100% - var(--navbar-width));
+  position: relative;
+  left: var(--navbar-width);
+}
+
+#topHeader {
+  height: 150px;
+  background-color: rgb(20, 192, 178);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.date-time-info {
+  font-family: mont;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.date-time-info .date {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 0 auto;
+}
+
+.date-time-info .time {
+  font-size: 2.5rem;
+  position: absolute;
+  right: 20px;
+}
+
+.number-of-tasks {
+  font-size: 2.5rem;
+  font-style: italic;
+  text-align: center;
+  opacity: 0.85;
+}
